@@ -34,14 +34,14 @@ header>.detail>h4 {
     font-size: 25px;
 }
 
-#toys {
+#toys >.toy-sect {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 20px;
 }
 
-#toys>.images>a>img {
+#toys> .toy-sect> .images > a >img {
     height: 300px;
     width: 600px;
 
@@ -50,7 +50,7 @@ header>.detail>h4 {
     max-width: fit-content;
 }
 
-#kids-wear {
+#kids-wear > .kids-wear-sect {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -58,7 +58,7 @@ header>.detail>h4 {
 
 }
 
-#kids-wear>.images>a>img {
+#kids-wear > .kids-wear-sect > .images>a>img {
     height: 300px;
     width: 600px;
 
@@ -67,17 +67,21 @@ header>.detail>h4 {
     max-width: fit-content;
 }
 
-#mothers-wear {
+#mothers-wear > .mothers-wear-sect{
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 20px;
 }
-#mothers-wear>.images>a>img {
+#mothers-wear > .mothers-wear-sect > .images>a>img {
     height: 300px;
     width: 600px;
 
     /* border: solid; */
     border-radius: 10px;
     max-width: fit-content;
+}
+h4{
+    justify-content: center;
+    font-size: 40px;
 }
