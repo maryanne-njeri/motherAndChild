@@ -1,3 +1,28 @@
 body{
-    background-color: yellow;
+    padding: 0;
+    margin: 0;
+}
+#top{
+    background-color: F9FDFF;
+}
+header > nav >{
+    max-width: 50%;
+    align-items: flex-end;
+    display: flex;
+}header > nav >ul{
+    margin-left: 70%;
+}
+header > nav >ul >li{
+    /* display: flex; */
+    display: inline-block;
+    margin: 30px;
+    font-size: 20px;
+    color: FF69B4;
+}
+header > .detail{
+    margin: 15px;
+    padding: 20px;
+}
+header > .detail > h4{
+    font-size: 25px;
 }
