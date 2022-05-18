@@ -26,3 +26,17 @@ header > .detail{
 header > .detail > h4{
     font-size: 25px;
 }
+#toys{
+    display: flex;
+    justify-content: space-between;
+     width:100%;
+     padding:20px;
+}
+#toys > .images >a > img{
+    height: 300px;
+    width: 600px;
+   
+    /* border: solid; */
+    border-radius: 10px;
+    max-width: fit-content;
+}
