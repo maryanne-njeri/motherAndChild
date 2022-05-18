@@ -12,14 +12,14 @@ justify-content:space-between;
 
 
 }
-.hero-c {
+.hero-content {
     align-self: flex-end;
     padding-right: 10%;
 
 }
 
 
-.hero-c >h1 {
+.hero-content >h1 {
     font-size: x-large;
      font-size: xx-large;
      color: rgb(2, 2, 68);
@@ -30,14 +30,14 @@ justify-content:space-between;
       
     }
 
-.hero-c >p {
+.hero-content >p {
     color: grey;
     font-size: large;
     margin-top: 20px;
 }
 
 
-.btn {
+.hero-btn {
     width: 150px;
     height: 40px;
     background-color: rgb(8, 115, 151);
@@ -45,4 +45,36 @@ justify-content:space-between;
     color: white;
     border: none;
     margin-top: 50px;
+}
+
+/* specialist section */
+
+.specialist {
+    text-align: center;
+    margin-top: 150px;
+}
+.specialist > button{
+  border: none;
+  background-color: lightpink;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  color: rgb(8, 115, 151);
+}
+
+.specialist > p {
+    color: grey;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.specialist > h2 {
+    color: rgb(2, 2, 68);
+}
+
+.blue {
+    background-color: azure;
+    
+    width: 400px;
+    height: 400px;
 }
