@@ -34,54 +34,25 @@ header>.detail>h4 {
     font-size: 25px;
 }
 
-#toys >.toy-sect {
+#display-section >.display-sect {
     display: flex;
     justify-content: space-between;
-    width: 100%;
-    padding: 20px;
+    /* width: 100%;
+    padding: 20px; */
 }
 
-#toys> .toy-sect> .images > a >img {
+#display-section >.display-sect> .images > a >img {
     height: 300px;
     width: 600px;
-
-    /* border: solid; */
-    border-radius: 10px;
+    margin: 20px;
     max-width: fit-content;
 }
-
-#kids-wear > .kids-wear-sect {
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 20px;
-
+#display-section >.display-sect> .images >p{
+    margin: 30px;
 }
 
-#kids-wear > .kids-wear-sect > .images>a>img {
-    height: 300px;
-    width: 600px;
-
-    /* border: solid; */
-    border-radius: 10px;
-    max-width: fit-content;
-}
-
-#mothers-wear > .mothers-wear-sect{
-    display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 20px;
-}
-#mothers-wear > .mothers-wear-sect > .images>a>img {
-    height: 300px;
-    width: 600px;
-
-    /* border: solid; */
-    border-radius: 10px;
-    max-width: fit-content;
-}
-h4{
+#display-section > h4{
     justify-content: center;
     font-size: 40px;
+    margin: 30px;
 }
