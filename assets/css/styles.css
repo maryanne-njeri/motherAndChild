@@ -16,20 +16,28 @@ nav {
     background-color: lightpink;
 }
 
-.items a {
-    text-decoration: none;
-    color: rgb(14, 14, 14);
+.menuItems {
+    display: flex;
+    align-items: center;
+}
+
+.menuItems li {
+    list-style-type: none;
     padding-left: 40px;
     font-weight: bold;
 }
 
-.items a:hover {
+.menuItems li a {
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+
+.menuItems a:hover {
     text-decoration: underline;
 }
 
 .btn-account {
-    margin-left: 40px;
-    padding: 10px 12px;
+    padding: 10px 15px;
     border: none;
     border-radius: 10px;
     background-color: lightblue;
@@ -43,4 +51,63 @@ nav {
 
 .bars {
     display: none;
+}
+
+
+@media only screen and (max-width: 1024px) {
+
+    body {
+        position: relative;
+    }
+
+    /* nav */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        background-color: lightpink;
+    }
+
+    .logo {
+        font-size: small;
+    }
+
+    .menuItems {
+        display: none;
+    }
+
+    .menu-bars {
+        display: block;
+    }
+    
+
+    .listItems {
+        position: fixed;
+        top: 60px;
+        /* left: 20px; */
+        padding: 20px;
+        background-color: lightpink;
+        width: 100%;
+    }
+
+    .listItems li {
+        list-style-type: none;
+        padding-bottom: 20px;
+    }
+
+    .listItems li a{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 500;
+        color: rgb(14, 14, 14);
+    }
+
+    #dropItems {
+        
+    }
+
 }
