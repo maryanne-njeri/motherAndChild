@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    background-color: lightpink;
+}
+
+.items a {
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+.items a:hover {
+    text-decoration: underline;
+}
+
+.btn-account {
+    margin-left: 40px;
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;
+    background-color: lightblue;
+    font-weight: bold;
+}
+
+.btn-account:hover {
+    color: white;
+    background-color: rgb(77, 163, 191);
+}
+
+.bars {
+    display: none;
+}
