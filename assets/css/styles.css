@@ -1,0 +1,48 @@
+*{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+#main{
+height: auto;
+display: flex;
+justify-content:space-between;
+
+
+}
+.hero-c {
+    align-self: flex-end;
+    padding-right: 10%;
+
+}
+
+
+.hero-c >h1 {
+    font-size: x-large;
+     font-size: xx-large;
+     color: rgb(2, 2, 68);
+}
+
+.top {
+    color: rgb(8, 115, 151);
+      
+    }
+
+.hero-c >p {
+    color: grey;
+    font-size: large;
+    margin-top: 20px;
+}
+
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(8, 115, 151);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
