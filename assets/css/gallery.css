@@ -1,56 +1,82 @@
-body{
+body {
     padding: 0;
     margin: 0;
 }
-#top{
+
+#top {
     background-color: F9FDFF;
 }
-header > nav >{
+
+header>nav> {
     max-width: 50%;
     align-items: flex-end;
     display: flex;
-}header > nav >ul{
+}
+
+header>nav>ul {
     margin-left: 70%;
 }
-header > nav >ul >li{
+
+header>nav>ul>li {
     /* display: flex; */
     display: inline-block;
     margin: 30px;
     font-size: 20px;
     color: FF69B4;
 }
-header > .detail{
+
+header>.detail {
     margin: 15px;
     padding: 20px;
 }
-header > .detail > h4{
+
+header>.detail>h4 {
     font-size: 25px;
 }
-#toys{
+
+#toys {
     display: flex;
     justify-content: space-between;
-     width:100%;
-     padding:20px;
+    width: 100%;
+    padding: 20px;
 }
-#toys > .images >a > img{
+
+#toys>.images>a>img {
     height: 300px;
     width: 600px;
-   
+
     /* border: solid; */
     border-radius: 10px;
     max-width: fit-content;
 }
-#kids-wear{
+
+#kids-wear {
     display: flex;
     justify-content: space-between;
-     width:100%;
-     padding:20px;
+    width: 100%;
+    padding: 20px;
 
 }
-#kids-wear > .images >a > img{
+
+#kids-wear>.images>a>img {
     height: 300px;
     width: 600px;
-   
+
+    /* border: solid; */
+    border-radius: 10px;
+    max-width: fit-content;
+}
+
+#mothers-wear {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+#mothers-wear>.images>a>img {
+    height: 300px;
+    width: 600px;
+
     /* border: solid; */
     border-radius: 10px;
     max-width: fit-content;
