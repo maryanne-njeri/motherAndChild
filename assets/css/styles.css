@@ -70,13 +70,14 @@ main {
     position: absolute;
     z-index: -1;
     top: 150px;
-    padding: 0 30px;
 }
 
 .section-one {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 30px;
+
 }
 
 .maiden-details, .maiden-photo {
@@ -111,6 +112,41 @@ main {
 
 .mother-child2 {
     width: 100%;
+}
+
+/* Section Two */
+.section-two {
+    margin-top: 50px;
+    background-color: #f7fbfc;
+    padding: 50px 30px;
+
+}
+
+.therapies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.therapies .pre, .post, .partum {
+    background-color: #fff;
+    padding: 20px;
+    width: 30%;
+}
+
+.therapies h4 {
+    margin-bottom: 10px;
+}
+
+.therapies p {
+    font-weight: 300;
+}
+
+.read-more {
+    display: block;
+    font-weight: 200;
 }
 
 
@@ -171,13 +207,14 @@ main {
         position: absolute;
         z-index: -1;
         top: 100px;
-        padding: 0 20px;
     }
 
+    /* Section One */
     .section-one {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        padding: 0 20px;
     }
 
     .maiden-details, .maiden-photo {
@@ -199,6 +236,34 @@ main {
         width: 100%;
     }
 
+    /* Section Two */
+    .therapies {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .therapies .pre, .post, .partum {
+        background-color: #fff;
+        padding: 20px;
+        width: 30%;
+    }
+
+    .therapies h4 {
+        margin-bottom: 10px;
+    }
+
+    .therapies p {
+        font-weight: 300;
+    }
+
+    .read-more {
+        display: block;
+        font-weight: 200;
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -214,6 +279,23 @@ main {
     }
 
     .maiden-details, .maiden-photo {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+
+    /* Section Two */
+    .therapies {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .therapies .pre, .post, .partum {
+        background-color: #fff;
+        margin-bottom: 20px;
         width: 100%;
     }
 }
