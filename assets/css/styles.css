@@ -1,0 +1,80 @@
+*{
+    background-color:white;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+#main{
+height: auto;
+display: flex;
+justify-content:space-between;
+
+
+}
+.hero-content {
+    align-self: flex-end;
+    padding-right: 10%;
+
+}
+
+
+.hero-content >h1 {
+    font-size: x-large;
+     font-size: xx-large;
+     color: rgb(2, 2, 68);
+}
+
+.top {
+    color: rgb(8, 115, 151);
+      
+    }
+
+.hero-content >p {
+    color: grey;
+    font-size: large;
+    margin-top: 20px;
+}
+
+
+.hero-btn {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(8, 115, 151);
+    border-radius: 20px;
+    color: white;
+    border: none;
+    margin-top: 50px;
+}
+
+/* specialist section */
+
+.specialist {
+    text-align: center;
+    margin-top: 150px;
+}
+.specialist > button{
+  border: none;
+  background-color: lightpink;
+  border-radius: 10px;
+  width: 100px;
+  height: 30px;
+  color: rgb(8, 115, 151);
+}
+
+.specialist > p {
+    color: grey;
+    font-size: large;
+    margin-top: 20px;
+}
+
+.specialist > h2 {
+    color: rgb(2, 2, 68);
+}
+
+.blue {
+    background-color: azure;
+    
+    width: 400px;
+    height: 400px;
+}
