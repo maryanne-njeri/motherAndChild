@@ -1,0 +1,66 @@
+.nav{
+    background-color:lightpink;
+    
+    
+
+}
+.nav img{
+    height: 150px;
+    width: 360px;
+    margin-left: 30%;
+    margin-top:-6% ;
+    
+}
+.nav p{
+    margin-left: 40%;
+}
+.nav h3{
+    margin-left: 70%;
+    margin-top: -5%;
+}
+.topics h3{
+background-color: lightblue;
+}
+.topics1 {
+    margin-left: 60%;
+    margin-top: 10%;
+}
+.topics1 p{
+    margin-right: 25%;
+    font-size: 120%;
+}
+.topics img{
+    margin-top: -26%;
+    
+}
+.topics2 {
+margin-top: 5%;
+}
+.topics2 img{
+    margin-top: 3%;
+}
+.topics3{
+    float: right;
+    margin-top: -24%;
+    margin-right: 5%;
+}
+.topics{
+    margin-left: 5%;
+}
+.topics2 a{
+    border: 2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 15%;
+}
+.topics3 a{
+    border:2px solid;
+    border-radius: 20px;
+    text-decoration: none;
+    padding-right: 40px;
+    padding-left: 40px;
+    margin-left: 35%;
+    /* box-sizing: border-box; */
+}
