@@ -98,9 +98,10 @@ main {
 /* footer */
 footer {
     position: absolute;
-    top: 700px;
+    top: 1700px;
     background: #f7fbfc;
     padding: 50px 30px;
+    width: 100%;
 }
 
 footer h3 {
@@ -165,6 +166,7 @@ footer h3 {
 .speciality{
     text-align: center;
     margin-top: 40px;
+
 }
 .spec{
     height: 30px;
@@ -180,5 +182,77 @@ footer h3 {
 }
 .speciality p{
     color: grey;
-    font-size: medium;
+    font-size: larger;
+    text-align: center;
+    color: rgb(15, 104, 238)
+}
+.speciality li{
+    list-style-type:none;
+    text-align:center;
+    display: inline;
+    padding: 30px;
+}
+.post{
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.post p{
+    padding: 5px;
+}
+post h1{
+    color: rgb(15, 104, 238)
+}
+.ppcare{
+    text-align: center;
+    padding:20px;   
+}
+.ppcare h1{
+    color: rgb(15, 104, 238)
+}
+.ppcare h1{
+    color: rgb(15, 104, 238)
+}
+.during{
+    text-align: center;
+    padding:20px;
+    
+}
+.during h1{
+    color: rgb(15, 104, 238)
+}
+.after{
+    text-align: center;
+    padding:20px;
+    
+}
+
+
+.after h1{
+    color: rgb(15, 104, 238) 
+
+}
+.eat{
+    text-align: center;
+    padding:20px;
+  
+}
+.eat h2{
+    color: rgb(15, 104, 238)
+}
+.viginal{
+    text-align: center;
+    padding:20px;
+
+}
+.viginal h2{
+    color: rgb(15, 104, 238);
+}
+.us{
+    text-align: center;
+    padding:20px;
+  
+}
+.us h1{
+    color: rgb(15, 104, 238)
 }
