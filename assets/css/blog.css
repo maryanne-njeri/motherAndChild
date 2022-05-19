@@ -89,7 +89,7 @@ margin-top: 5%;
     margin-left: 5%;
 }
 .topics2 a{
-    border: 1px solid;
+    border:1px solid lightblue;
     border-radius: 20px;
     text-decoration: none;
     padding-right: 40px;
@@ -97,13 +97,14 @@ margin-top: 5%;
     margin-left: 15%;
     padding-top: 5px;
     padding-bottom: 5px;
+    box-shadow: 2px 2px 5px;
    
 }
 .topics2 .but{
     margin-top: 5%;
 }
 .topics3 a{
-    border:1px solid;
+    border:1px solid lightblue;
     border-radius: 20px;
     text-decoration: none;
     padding-right: 40px;
@@ -111,7 +112,7 @@ margin-top: 5%;
     margin-left: 30%;
     padding-top: 5px;
     padding-bottom: 5px;
-    /* box-sizing: border-box; */
+    box-shadow: 2px 2px 5px;
 }
 .topics3 .but{
     margin-top: 15%;
