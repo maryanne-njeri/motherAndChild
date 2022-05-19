@@ -1,22 +1,57 @@
-.nav{
-    background-color:lightpink;
-    
-    
 
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    position: fixed;
+    width: 100%;
+    background-color: lightpink;
 }
-.nav img{
-    height: 150px;
-    width: 360px;
-    margin-left: 30%;
-    margin-top:-6% ;
-    
+
+nav .logo {
+    font-weight: 500;
 }
-.nav p{
-    margin-left: 40%;
+
+.menuItems {
+    display: flex;
+    align-items: center;
 }
-.nav h3{
-    margin-left: 70%;
-    margin-top: -5%;
+
+.menuItems li {
+    list-style-type: none;
+    padding-left: 40px;
+    font-weight: 500;
+}
+
+.menuItems li a {
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+}
+
+.menuItems a:hover {
+    text-decoration: underline;
+}
+
+.btn-account {
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background-color: transparent;
+    font-weight: 500;
+}
+
+.btn-account:hover {
+    color: lightpink;
+    background-color: #fff;
+}
+
+.bars {
+    display: none;
+}
+
+.listItems, .menu-bars {
+    display: none;
 }
 .topics h3{
 background-color: lightblue;
