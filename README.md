@@ -8,7 +8,7 @@
  
 > **Robin Musyoki**
 - Task:
-- [ ] Health and Therapy
+- [X] Health and Therapy
  
 > **Ezra Kipchirchir**
 - Task
