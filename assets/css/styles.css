@@ -105,6 +105,10 @@ main {
     background-color: transparent;
     font-weight: 500;
 }
+.section-one > .maiden-details > .btn-maiden:hover{
+    background-color: #FBC0CB;
+
+}
 
 .btn-maiden:hover {
     background-color: #FBC0CB;

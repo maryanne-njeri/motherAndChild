@@ -15,6 +15,7 @@ nav {
     width: 100%;
     background-color: lightpink;
     top: 0;
+    z-index: 1;
 }
 
 nav .logo {
@@ -61,18 +62,31 @@ nav .logo {
 .listItems, .menu-bars {
     display: none;
 }
-
-
+h4{
+    width: 100%;
+    color: #FBC0CB;
+    align-items: center;
+}
 #display-section >.display-sect {
     display: flex;
     justify-content: space-between;
-    /* width: 100%;
-    padding: 20px; */
+    width: 100%;
+    margin: 20px;
+    /* border: 1px solid; */
+    /* margin-right: 40px; */
+    /* padding: 20px; */ 
+}
+#display-section >.display-sect> .images{
+    border: 1px solid;
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 20px;
+    width: 90%;
 }
 
 #display-section >.display-sect> .images > a >img {
-    height: 300px;
-    width: 600px;
+    height: 30vh;
+    width: 70%;
     margin: 20px;
     max-width: fit-content;
 }
@@ -85,8 +99,9 @@ nav .logo {
     font-size: 40px;
     margin: 30px;
 }
+
 footer {
-    background: #f7fbfc;
+    background: whitesmoke;
     padding: 50px 30px;
 }
 
