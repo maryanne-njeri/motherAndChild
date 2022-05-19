@@ -149,6 +149,37 @@ main {
     font-weight: 200;
 }
 
+/* Section Three */
+.section-three {
+    padding: 0 30px;
+}
+
+.section-three h3 {
+    padding-top: 50px;
+    margin-bottom: 30px;
+}
+
+.our-stories {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pre-natal, .post-natal, .swaddling {
+    width: 30%;
+}
+
+.stories-img {
+    width: 100%;
+    /* margin-bottom: 20px; */
+}
+
+.our-stories p {
+    font-weight: 300;
+    padding: 20px 10px;
+    background: #fef8f9;
+}
+
 
 @media only screen and (max-width: 1024px) {
 
@@ -264,6 +295,37 @@ main {
         font-weight: 200;
     }
 
+    /* Section Three */
+    .section-three {
+        padding: 0 30px;
+    }
+
+    .section-three h3 {
+        padding-top: 50px;
+        margin-bottom: 30px;
+    }
+
+    .our-stories {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .pre-natal, .post-natal, .swaddling {
+        width: 30%;
+    }
+
+    .stories-img {
+        width: 100%;
+        /* margin-bottom: 20px; */
+    }
+
+    .our-stories p {
+        font-weight: 300;
+        padding: 20px 10px;
+        background: #fef8f9;
+    }
+
 }
 
 @media only screen and (max-width: 900px) {
@@ -294,6 +356,20 @@ main {
     }
 
     .therapies .pre, .post, .partum {
+        background-color: #fff;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    /* Section Three */
+    .our-stories {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        width: 100%;
+    }
+
+    .pre-natal, .post-natal, .swaddling {
         background-color: #fff;
         margin-bottom: 20px;
         width: 100%;
