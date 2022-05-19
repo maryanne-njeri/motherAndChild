@@ -3,20 +3,20 @@
 
 # Author Names
 > **Rosemary Njeri**
->> Task - Landing Page
- - [x]
+- Task:
+- [X] Landing Page
  
 > **Robin Musyoki**
->> Task - Health and Therapy
- - []
+- Task:
+- [ ] Health and Therapy
  
 > **Ezra Kipchirchir**
->> Task - Blog
- - []
+- Task
+ - [ ] Blog
  
 > **Kazungu Angila**
->> Task - Gallery
- - []
+- Task
+ - [ ] Gallery
 
 
 # Description
