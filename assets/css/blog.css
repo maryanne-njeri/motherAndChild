@@ -59,16 +59,23 @@ nav .logo {
 .listItems, .menu-bars {
     display: none;
 }
+.topics1 h3{
+    margin-right: 50%;
+    margin-top: -28%;
+}
 
 .topics1 h4{
     margin-left: 60%;
-    margin-top: 10%;
+    margin-top: 20%;
+  
 }
 .topics1 p{
  margin-left:60%;
+ margin-top: 5%;
+
 }
 .topics1 img{
-   margin-top: -15%;
+   margin-top: 5%;
 }
 .topics2 {
 margin-top: 5%;
@@ -82,22 +89,55 @@ margin-top: 5%;
 padding: 20px;
 }
 
-.topics2 p{
-   margin-right: 70%;
-   
-}
+
 .topics2 h4{
     padding: 20px;
+    
+}
+.text0{
+    margin-right: 55%;
+}
+.topics3 h3{
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: -5%;
 }
 .topics3 h4{
     margin-left: 50%;
+    padding: 20px;
+  
 }
 .topics3 p{
     margin-left: 50%;
+    
+    
 }
-
-
-
+.topics3 img{
+    
+    padding-left: 2%;
+    margin-top: 10%;
+    
+}
+.text{
+    
+    margin-top: -30%;
+}
+.topics4{
+    margin-top: 5%;
+}
+.topics4 img{
+    /* float: right; */
+    margin-left: 50%;
+    margin-top: 5%;
+}
+.text1{
+    margin-right: 60%;
+    margin-top: -35%;
+    padding-left: 20px;
+}
+.topics4 h4{
+    padding: 20px;
+}
 footer {
     background: #f7fbfc;
     padding: 50px 30px;
@@ -130,4 +170,134 @@ footer h3 {
 .footer-section .form-input input {
     padding: 5px 20px;
     width: 250px;
+}
+@media only screen and (max-width: 1024px) {
+
+    body {
+        position: relative;
+    }
+
+    /* nav */
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        position: fixed;
+        width: 100%;
+        background-color: lightpink;
+    }
+
+    .logo {
+        font-size: small;
+    }
+
+    .menuItems, .listItems {
+        display: none;
+    }
+
+    .menu-bars {
+        display: block;
+    }
+    
+
+    .listItems {
+        position: fixed;
+        top: 60px;
+        /* left: 20px; */
+        padding: 20px;
+        background-color: lightpink;
+        width: 100%;
+    }
+
+    .listItems li {
+        list-style-type: none;
+        padding-bottom: 20px;
+    }
+
+    .listItems li a{
+        text-decoration: none;
+        font-size: large;
+        font-weight: 500;
+        color: rgb(14, 14, 14);
+    }
+ /* Footer */
+
+ footer {
+    background: #f7fbfc;
+    padding: 50px 30px;
+}
+
+footer h1 {
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-section h4 {
+    margin-bottom: 10px;
+}
+
+.footer-section ul {
+    list-style-type: none;
+}
+
+.footer-section ul li {
+    margin-bottom: 6px;
+    font-weight: 200;
+}
+
+.footer-section .form-input input {
+    padding: 5px 20px;
+    width: 150px;
+}
+
+.form-input button {
+    margin-left: -6px;
+    border: 1px solid #FBC0CB;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background: #FBC0CB;
+    padding: 6px 15px;
+    color: #f7fbfc;
+}
+
+}
+@media only screen and (max-width: 768px) {
+
+    /* Footer */
+    .footer-section {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-section h4 {
+        margin-bottom: 10px;
+    }
+
+    .footer-section ul {
+        list-style-type: none;
+    }
+
+    .footer-section ul li {
+        margin-bottom: 6px;
+        font-weight: 200;
+    }
+
+    .footer-section .form-input input {
+        padding: 5px 20px;
+        width: 200px;
+    }
+
+    .contact-info, .form-input, .quick-links {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+
 }
