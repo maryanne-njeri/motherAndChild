@@ -100,19 +100,24 @@ h4{
     margin: 30px;
 }
 
+hr {
+    margin-bottom: 15px;
+    opacity: .2;
+}
+
 footer {
-    background: whitesmoke;
+    background: #f7fbfc;
     padding: 50px 30px;
 }
 
-footer h3 {
+footer h1 {
     margin-bottom: 20px;
 }
 
 .footer-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer-section h4 {
@@ -142,6 +147,7 @@ footer h3 {
     padding: 6px 15px;
     color: #f7fbfc;
 }
+
 @media only screen and (max-width: 1024px) {
 
     body {
