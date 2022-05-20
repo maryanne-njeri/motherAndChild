@@ -308,4 +308,9 @@ footer h3 {
     margin-top: 10px;
     font-size: large;
     font-weight: bold;
+    border-radius: 30px;
+}
+.box3 {
+   display: flex;
+   justify-content: center;
 }
