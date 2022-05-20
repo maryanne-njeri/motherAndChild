@@ -135,6 +135,11 @@ main {
     width: 100%;
 }
 
+.therapies span a {
+    text-decoration: none;
+    color: #576366;
+}
+
 .therapies .pre, .post, .partum {
     background-color: #fff;
     padding: 20px;
