@@ -20,7 +20,13 @@ nav {
 }
 
 nav .logo {
-    font-weight: 500;
+    font-weight: 700;
+}
+
+nav .logo a {
+    text-decoration: none;
+    color: rgb(14, 14, 14);
+    font-size: 24;
 }
 
 .menuItems {
@@ -84,15 +90,14 @@ main {
     width: 50%;
 }
 
-.maiden-details h3 {
-    font-size: large;
-}
-
 .maiden-details p {
     font-weight: 300;
+    color: #576366;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
-.maiden-details h3, p {
+.maiden-details h1, p {
     padding-bottom: 15px;
     padding-right: 50px;
     line-height: 1.5;
@@ -125,7 +130,7 @@ main {
 .therapies {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-top: 50px;
     width: 100%;
 }
@@ -142,6 +147,9 @@ main {
 
 .therapies p {
     font-weight: 300;
+    color: #576366;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 .read-more {
@@ -154,7 +162,7 @@ main {
     padding: 0 30px;
 }
 
-.section-three h3 {
+.section-three h1 {
     padding-top: 50px;
     margin-bottom: 30px;
 }
@@ -162,7 +170,7 @@ main {
 .our-stories {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     margin-bottom: 100px;
 
 }
@@ -180,23 +188,31 @@ main {
     font-weight: 300;
     padding: 20px 10px;
     background: #fef8f9;
+    color: #576366;
+    font-size: 16px;
+    line-height: 1.6;
+
 }
 
 /* Footer */
+hr {
+    margin-bottom: 15px;
+    opacity: .2;
+}
 
 footer {
     background: #f7fbfc;
     padding: 50px 30px;
 }
 
-footer h3 {
+footer h1 {
     margin-bottom: 20px;
 }
 
 .footer-section {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .footer-section h4 {
@@ -299,7 +315,7 @@ footer h3 {
         width: 50%;
     }
 
-    .maiden-details h3, p {
+    .maiden-details h1, p {
         padding-bottom: 15px;
         padding-right: 10px;
     }
@@ -335,6 +351,9 @@ footer h3 {
 
     .therapies p {
         font-weight: 300;
+        color: #576366;
+        font-size: 16px;
+        line-height: 1.6;
     }
 
     .read-more {
@@ -347,7 +366,7 @@ footer h3 {
         padding: 0 30px;
     }
 
-    .section-three h3 {
+    .section-three h1 {
         padding-top: 50px;
         margin-bottom: 30px;
     }
@@ -372,6 +391,9 @@ footer h3 {
         font-weight: 300;
         padding: 20px 10px;
         background: #fef8f9;
+        color: #576366;
+        font-size: 16px;
+        line-height: 1.6;
     }
 
     /* Footer */
@@ -381,7 +403,7 @@ footer h3 {
         padding: 50px 30px;
     }
 
-    footer h3 {
+    footer h1 {
         margin-bottom: 20px;
     }
 
