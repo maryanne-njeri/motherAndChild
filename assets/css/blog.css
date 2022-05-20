@@ -88,15 +88,39 @@ padding: 20px;
 }
 .topics2 h4{
     padding: 20px;
+    
+}
+.topics3 h3{
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: -5%;
 }
 .topics3 h4{
     margin-left: 50%;
+    padding: 20px;
+  
 }
 .topics3 p{
     margin-left: 50%;
+    
+    
 }
-
-
+.topics3 img{
+    background-color: red;
+    padding-left: 2%;
+    margin-top: 10%;
+}
+.text{
+    background-color: red;
+    margin-top: -30%;
+}
+.topics4{
+    margin-top: 5%;
+}
+.topics4 img{
+    /* float: right; */
+    margin-left: 50%;
+}
 
 footer {
     background: #f7fbfc;
