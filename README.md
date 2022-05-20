@@ -8,15 +8,15 @@
  
 > **Robin Musyoki**
 - Task:
-- [ ] Health and Therapy
+- [X] Health and Therapy
  
 > **Ezra Kipchirchir**
 - Task
- - [ ] Blog
+ - [X] Blog
  
 > **Kazungu Angila**
 - Task
- - [ ] Gallery
+ - [X] Gallery
 
 
 # Description
