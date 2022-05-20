@@ -98,7 +98,7 @@ main {
 /* footer */
 footer {
     position: absolute;
-    top: 1700px;
+    top: 2500px;
     background: #f7fbfc;
     padding: 50px 30px;
     width: 100%;
@@ -195,7 +195,10 @@ footer h3 {
 .post{
     text-align: center;
     padding-top: 20px;
-    
+    width: 400px;
+    height: auto;
+    border: 2px solid lightpink;
+    padding: 20px;
 }
 .post p{
     padding: 5px;
@@ -205,7 +208,10 @@ post h1{
 }
 .ppcare{
     text-align: center;
-    padding:20px;   
+    padding:20px;
+    width: 400px;
+    border: 2px solid lightpink;
+    padding: 20px;
 }
 .ppcare h1{
     color: rgb(15, 104, 238)
@@ -216,6 +222,10 @@ post h1{
 .during{
     text-align: center;
     padding:20px;
+    width: 400px;
+    height: auto;
+    border: 2px solid lightpink;
+    padding: 20px;
     
 }
 .during h1{
@@ -224,6 +234,10 @@ post h1{
 .after{
     text-align: center;
     padding:20px;
+    width: 400px;
+    height: auto;
+    border: 2px solid lightpink;
+    padding: 20px;
     
 }
 
@@ -235,6 +249,10 @@ post h1{
 .eat{
     text-align: center;
     padding:20px;
+    width: 400px;
+    height: auto;
+    border: 2px solid lightpink;
+    padding: 20px;
   
 }
 .eat h2{
@@ -243,6 +261,10 @@ post h1{
 .viginal{
     text-align: center;
     padding:20px;
+    width: 400px;
+    height: auto;
+    border: 2px solid lightpink;
+    padding: 20px;
 
 }
 .viginal h2{
@@ -251,8 +273,36 @@ post h1{
 .us{
     text-align: center;
     padding:20px;
+    width: 400px;
+    height: auto;
+    border: 2px solid lightpink;
+    padding: 20px;
   
 }
 .us h1{
     color: rgb(15, 104, 238)
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    font-size: large;
+    color: grey;
+  
+}
+.box1{
+    display: flex;
+   justify-content: space-between;
+   margin-top: 10px;
+   color: grey;
+   font-size: medium;
+ 
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: grey;
+    
 }
